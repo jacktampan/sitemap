@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Delete Sitemap</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <h1>Delete Sitemap</h1>
+  <label for="domain">Domain:</label>
+  <textarea id="domain" rows="1" placeholder="http://www.example.com"></textarea>
+  <label for="sitemapPaths">Sitemap Paths:</label>
+  <textarea id="sitemapPaths" rows="5" placeholder="/sitemap1.xml&#10;/sitemap2.xml"></textarea>
+  <button onclick="deleteSitemaps()">Delete Sitemaps</button>
+  <div id="output"></div>
+</div>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
